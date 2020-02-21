@@ -75,7 +75,7 @@ Find at **least 5** different option of spark and initiate your spark session ba
 SparkSession.builder.config("spark.some.config.option", "some-value")
 ```
 
-### 1. Reading the data
+### 2. Reading the data
 
 Read your dataset from a file, and from a table. You can upload your data to `DataBricks` as a table in order to do table operations. 
 
@@ -91,25 +91,7 @@ From the list below, do all of the operations.
 - Convert Spark DataFrame to RDD
 - Convert Spark DataFrame to Pandas DataFrame
 
-
-### 2. Spark SQL
-
-To do the tasks with Spark SQL, you need to implement the tasks by writing SQL queries and executing your results with Spark SQL.
-
-``` py
-your_query = 'select * from tablename'
-sparkSession.sql(your_query).show()
-```
-
-### 3. Spark DataFrame
-
-To do the tasks with Spark DataFrame, you need to use pyspark.sql.DataFrame functions like below.
-
-``` py
-data.select(...).groupBy(...)
-```
-
-### Tasks
+### 3. Tasks
 
 From following tasks, you need to do **at least 8** of them to get the full points in both ways, by writing SQL queries and by using pyspark.sql.DataFrame functions.
 
@@ -131,6 +113,24 @@ From following tasks, you need to do **at least 8** of them to get the full poin
     - Get correlation
     - Get crosstab
     - Get freqItems
+
+
+#### Spark SQL
+
+To do the tasks with Spark SQL, you need to implement the tasks by writing SQL queries and executing your results with Spark SQL.
+
+``` py
+your_query = 'select * from tablename'
+sparkSession.sql(your_query).show()
+```
+
+#### Spark DataFrame
+
+To do the tasks with Spark DataFrame, you need to use pyspark.sql.DataFrame functions like below.
+
+``` py
+data.select(...).groupBy(...)
+```
 
 ## What are all these other files?
 
