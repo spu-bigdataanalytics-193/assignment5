@@ -69,7 +69,7 @@ Your lengty description of what your code does.
 
 ### 1. Explore Spark configuration options
 
-Find at **least 5** different option of spark and initiate your spark session based on these options.
+Find **at least 5** different option of spark and initiate your spark session based on these options.
 
 ``` py
 SparkSession.builder.config("spark.some.config.option", "some-value")
@@ -83,7 +83,7 @@ Read your dataset from a file, and from a table. You can upload your data to `Da
 spark.read.csv(...)
 ```
 
-From the list below, do all of the operations.
+From the list below, do **all** of the operations.
 
 - Read data as RDD
 - Read data as DataFrame
@@ -93,7 +93,7 @@ From the list below, do all of the operations.
 
 ### 3. Tasks
 
-From following tasks, you need to do **at least 8** of them to get the full points in both ways, by writing SQL queries and by using pyspark.sql.DataFrame functions.
+From following tasks, you need to do **at least 8** of them to get the full points in both ways, by writing SQL queries and by using pyspark.sql.DataFrame functions. You **must show the result**  of your task by showing first few rows of your dataset, if not the rows, similarly, the aggreated result from your code.
 
 - Select first 10 rows of dataset.
 - Show the schema of of the dataset.
