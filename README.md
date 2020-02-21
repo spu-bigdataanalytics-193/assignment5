@@ -1,8 +1,9 @@
 # Spark Even More! (Bonus)
 
-In this assignment, you will implement various ways of using Spark.
+![Spark API](https://databricks.com/wp-content/uploads/2016/06/Unified-Apache-Spark-2.0-API-1.png)
+In this assignment, you will implement various ways of using Spark. The goal in this assignment is to use functionalities of spark.
 
-The goal in this assignment is to use functionalities of spark.
+**PS: This assignment is not mandatory if you think you collected enough points. If not this may be your chance to increase your points!**
 
 Hint: All the answers of the tasks given below, you can find it right in the [Spark Python Documentation](https://spark.apache.org/docs/latest/api/python/index.html).
 
